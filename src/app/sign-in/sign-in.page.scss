@@ -1,0 +1,63 @@
+.container-main-box {
+  margin-left: 10px;
+  margin-right: 10px;
+  .content{
+    h3{
+      color: #292B3A;
+      font-size: 34px;
+      font-weight: 900;
+    }
+  }
+  .text-or-signin {
+    color: #B9B9BE;
+    font-size: 14px;
+    text-align: center;
+  }
+  .divider {
+    width: 100%;
+    border-width: 1px;
+    border-bottom: 1px solid #F1F1F2;
+  }
+  .custom-button {
+    --border-radius: 20px !important;
+  }
+  .signInDefault {
+    --background: #2460DA !important;
+    text-transform: initial;
+  }
+  .signInWithGoogle {
+    --color: #000000;
+    --background: #ffffff !important;
+    text-transform: initial;
+  }
+  .signInWithApple {
+    --background: #000000 !important;
+    text-transform: initial;
+  }
+  /* Margin */
+  .mt30{
+    margin-top: 30px;
+  }
+  .mb10{
+    margin-bottom: 10px;
+  }
+  .mb30{
+    margin-bottom: 30px;
+  }
+  .mr3{
+    margin-right: 3px;
+  }
+  .iconW16 {
+    width: 16px;
+  }
+  /* Form Error Input Validation */
+  .invalid-input{
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    .error-field{
+      color: #eb445a;
+      font-size: 12px;
+    }
+  }
+}
